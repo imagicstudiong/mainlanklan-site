@@ -27,7 +27,7 @@ function Navbar() {
          <Nav>
            <NavbarContainer>
           <NavLogo to='/' > 
-            <img src={Logo} alt='Northern Coalition For Peter Obi' />
+            <img src={Logo} alt='Mainlanklan Entertainment' />
           
             </NavLogo>
             <MobileIcon onClick={handleClick}>

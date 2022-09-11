@@ -63,8 +63,7 @@ export const ImgWrapper = styled.div`
   top:0;
   left:0;
   width:100%;
-  height:120%;
-  top:-10%;
+  height:100%;
   z-index:1;
   background-size: cover;
   background-attachment: scroll  ;
@@ -88,7 +87,7 @@ export const Img = styled.img`
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  max-height: 500px;
+  max-height: 1200px;
 `;
 
 export const Heading = styled.h1`
