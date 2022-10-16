@@ -37,7 +37,7 @@ function App() {
           <Route path="/journal" element={<Journal />}/>
           <Route path="/shop" element={<Shop />}/>
           <Route path="/contact" element={<Contact />}/>
-             <Route path="/privacy" element={<Privacy />}/>
+          <Route path="/privacy" element={<Privacy />}/>
           <Route path="/terms" element={<Terms />}/>
 
 
