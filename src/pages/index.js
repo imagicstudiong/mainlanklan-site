@@ -1,5 +1,5 @@
-import React  from 'react'
-import Slider from '../components/HomePage/Slider';
+import HeroSection from "../components/HeroSection";
+import React  from 'react';
 
 
 
@@ -8,9 +8,11 @@ const Home = () => {
     return (
 
         <>
-        <Slider />
+        < HeroSection />
+        
 
         </>
+
     
 
      );

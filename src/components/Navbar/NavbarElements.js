@@ -15,8 +15,10 @@ export const Nav = styled.nav`
   transform: translateZ(0);
   transition: all .2s ease;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01), 0 1px 8px 0 rgba(0, 0, 0, 0.25);
-  background-color: #fff;
+  background: #fff;
 `;
+
+
 
 export const NavbarContainer = styled(Container)`
   display: flex;

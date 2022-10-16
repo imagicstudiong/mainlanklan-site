@@ -1,45 +1,53 @@
-import React, {useState} from 'react';
+import React from 'react';
+
 import Home  from './pages/index';
-import About  from './pages/about';
+import Mainlanklan  from './pages/mainlanklan';
+import Artists  from './pages/artists';
 import Services  from './pages/services';
 import Journal  from './pages/journal';
 import Shop  from './pages/shop';
 import Contact  from './pages/contact';
-
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Privacy  from './pages/privacy';
+import Terms  from './pages/terms';
 import Navbar from "./components/Navbar";
-import Sidebar from './components/Sidebar';
-import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
+import Footer from "./components/Footer";
+
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+
+
+
+
 function App() {
-     const [isOpen, setIsOpen] = useState(false)
-
-        const toggle = () =>{
-        setIsOpen(!isOpen)
-        }
-
-
-
   return (
+   <>
     <div>
       <Router>
-      <ScrollToTop />
-        <Sidebar isOpen={isOpen} toggle={toggle} />
-        <Navbar toggle={toggle} />
+     <ScrollToTop />
+      
+        <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />}/>
-          <Route path="/about" element={<About />}/>
+          <Route path="/mainlanklan" element={<Mainlanklan />}/>
+          <Route path="/artists" element={<Artists />}/>
           <Route path="/services" element={<Services />}/>
           <Route path="/journal" element={<Journal />}/>
           <Route path="/shop" element={<Shop />}/>
           <Route path="/contact" element={<Contact />}/>
-       
-        </Routes>
-         <Footer />
+             <Route path="/privacy" element={<Privacy />}/>
+          <Route path="/terms" element={<Terms />}/>
 
+
+
+        </Routes>
+
+        <Footer />
       </Router>
     </div>
+   </>
   );
 }
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import Logo from '../../images/logo.png';
+import Logo from '../../assets/img/logo.png';
 import {
   Nav,
   NavbarContainer,
@@ -40,13 +40,18 @@ function Navbar() {
             </NavItem>
         
             <NavItem>
-            <NavLinks to='/about'onClick={closeMobileMenu}>Mainlanklan</NavLinks>
+            <NavLinks to='/mainlanklan'onClick={closeMobileMenu}>Mainlanklan</NavLinks>
             </NavItem>
+
+            <NavItem>
+            <NavLinks to='/artists'onClick={closeMobileMenu}>Artistes</NavLinks>
+            </NavItem>
+            
         
             <NavItem>
             <NavLinks to='/services'onClick={closeMobileMenu}>Services</NavLinks>
             </NavItem>
-            
+
             <NavItem>
             <NavLinks to='/journal'onClick={closeMobileMenu}>Journal</NavLinks>
             </NavItem>
