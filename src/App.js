@@ -9,7 +9,7 @@ import Shop  from './pages/shop';
 import Contact  from './pages/contact';
 import Privacy  from './pages/privacy';
 import Terms  from './pages/terms';
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import ScrollToTop from './components/ScrollToTop';
 
 import Footer from "./components/Footer";
@@ -28,7 +28,7 @@ function App() {
       <Router>
      <ScrollToTop />
       
-        <Navbar />
+        <Header />
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route path="/mainlanklan" element={<Mainlanklan />}/>
