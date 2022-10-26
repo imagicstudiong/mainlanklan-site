@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" fixed="top" expand="lg">
       <Container>
         <Navbar.Brand><Link to="/"><img src={Logo} alt="MainLanKlan" /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

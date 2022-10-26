@@ -21,9 +21,8 @@ const Contact = () => {
 				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" className="page-name__bg lazy" data-src="./img/page-name_bg.jpg" alt="bg" />
 			</div>
 		</section>
-    <section className="v-separator pb-xs-50 pb-md-50 pb-lg-120">
-				<div className="map-block" id="contact-map" data-lng='-117.2697074' data-lat='34.0887252' data-zoom='15' data-map-icon="./img/map-marker.png"></div>
-				<div className="contact-bnr lazy" data-src="img/contact-bg.jpg">
+    <section className="pb-xs-50 pb-md-50 pb-lg-120">
+				<div>
 					<div className="container">
 						<h2>Get in Touch with Us</h2>
 						<ul className="contact-list">
@@ -32,8 +31,8 @@ const Contact = () => {
 									<svg viewBox="0 0 15 21" width="15" height="21" xmlns="http://www.w3.org/2000/svg"><path d="M7.56641 0.386719C6.5638 0.347656 5.61328 0.510417 4.71484 0.875C3.82943 1.22656 3.05469 1.72786 2.39062 2.37891C1.72656 3.01693 1.19922 3.77865 0.808594 4.66406C0.43099 5.53646 0.242188 6.46745 0.242188 7.45703C0.242188 8.58984 0.476562 9.66406 0.945312 10.6797C1.42708 11.6823 2.01302 12.6784 2.70312 13.668C3.40625 14.6576 4.14844 15.6667 4.92969 16.6953C5.71094 17.724 6.40755 18.8307 7.01953 20.0156C7.08464 20.1328 7.18229 20.1914 7.3125 20.1914C7.45573 20.1914 7.5599 20.1328 7.625 20.0156C8.17188 18.9479 8.79036 17.9583 9.48047 17.0469C10.1836 16.1224 10.8607 15.224 11.5117 14.3516C12.1628 13.4661 12.7422 12.5807 13.25 11.6953C13.7708 10.7969 14.1159 9.83333 14.2852 8.80469C14.4674 7.73698 14.4219 6.70833 14.1484 5.71875C13.875 4.72917 13.4258 3.84375 12.8008 3.0625C12.1888 2.28125 11.4336 1.64974 10.5352 1.16797C9.63672 0.686198 8.64714 0.425781 7.56641 0.386719ZM7.3125 11.168C6.29688 11.168 5.42448 10.8099 4.69531 10.0938C3.96615 9.36458 3.60156 8.48568 3.60156 7.45703C3.60156 6.44141 3.96615 5.56901 4.69531 4.83984C5.42448 4.11068 6.29688 3.74609 7.3125 3.74609C8.34115 3.74609 9.21354 4.11068 9.92969 4.83984C10.6589 5.56901 11.0234 6.44141 11.0234 7.45703C11.0234 8.48568 10.6589 9.36458 9.92969 10.0938C9.21354 10.8099 8.34115 11.168 7.3125 11.168Z"></path></svg>
 								</div>
 								<div className="contact-list_text">
-									<h5>Voyceo Studio Recording</h5>
-									<a href="../../https@goo.gl/maps/jKr6EyJPUmnzJMNU8" target="_blank">1035 N Sycamore<br>Avenue Hollywood, CA 90040</a>
+									<h5>MainLanKlan Studio</h5>
+									<p>31, Otunba Street,<br /> Ojodu. Lagos State<br />hello@mainlanklan.com.ng</p>
 								</div>
 							</li>
 							<li className="mb-xs-30 mb-lg-50">
@@ -42,8 +41,7 @@ const Contact = () => {
 								</div>
 								<div className="contact-list_text">
 									<h5>Contact Phones</h5>
-									<a href="tel_3A+18007654321">1 (800) 765-43-21</a>
-									<a href="fax_3A+18007654323">1 (800) 765-43-23 (fax)</a>
+									<p>234 (0)807 195 3036</p>
 								</div>
 							</li>
 							<li className="mb-xs-30 mb-lg-50">
@@ -68,33 +66,25 @@ const Contact = () => {
 								<h3>Did You Know?</h3>
 								<ul>
 									<li>
-										<p>We offer a voiceover coaching and demo-production service. Please contact <a href="mailto:info@voyceorecordingstudio.com" className="theme-color">info@voyceorecordingstudio.com</a> for more information.</p>
+										<p>We offer a voiceover coaching and demo-production service. Please contact <a href="mailto:hello@mainlanklan.com.ng" className="theme-color">hello@mainlanklan.com.ng</a> for more information.</p>
 									</li>
+									
 									<li>
-										<p>You can listen in on, and contribute to, a Voyceo recording session via Skype. Please add the Skype name "voyceo" (without the quotation marks) to your contacts list.</p>
-									</li>
-									<li>
-										<p>You can visit the studio to have a chat, discuss your upcoming project, or to direct your session. Please email us at <a href="mailto:info@voyceorecordingstudio.com" className="theme-color">info@voyceorecordingstudio.com</a> to make arrangements.</p>
+										<p>You can visit the studio to have a chat, discuss your upcoming project, or to direct your session. Please email us at <a href="mailto:hello@mainlanklan.com.ng" className="theme-color">hello@mainlanklan.com.ng</a> to make arrangements.</p>
 									</li>
 								</ul>
-								<h3>Newsletter</h3>
-								<p>Keep up to date with what's happening at Voyceo.</p>
-								<form action="#" className="newsletter-form">
-									<input type="email" placeholder="Enter your e-mail">
-									<button type="submit"><svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.4203 1.90234V0.417969H0.779688V16.082H22.4203V1.90234ZM2.26406 1.90234H20.9359V2.85938L11.9711 8.62109L2.26406 2.80078V1.90234ZM15.6039 8.44531L20.9359 4.89062V13.1914L15.6039 8.44531ZM2.26406 4.89062L7.79141 8.28906L2.26406 13.1914V4.89062ZM9.15859 9.12891L11.9711 10.8672L14.2563 9.34375L20.0961 14.5977H3.10391L9.15859 9.12891Z" fill="var(--main_color)"/></svg></button>
-								</form>
-							</div>
+															</div>
 						</div>
 						<div className="col-lg-6 pt-xs-25 pt-md-25 pt-lg-60">
 							<h3>Contact Form</h3>
 							<form action="#" className="contact-form">
-								<input type="text" name="name" placeholder="First name *" required>
-								<input type="email" name="e-mail" placeholder="Email address *" required>
-								<input type="text" name="phone" placeholder="Phone number">
+								<input type="text" name="name" placeholder="First name *" required />
+								<input type="email" name="e-mail" placeholder="Email address *" required />
+								<input type="text" name="phone" placeholder="Phone number" />
 								<textarea name="mess" placeholder="Message"></textarea>
 								<button type="submit" className="button white btn-border">
 									<svg className="icon icon-mic" width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg"><path d="M3.6425 0C3.205 0 2.78833 0.0885417 2.3925 0.265625C1.99667 0.432292 1.65292 0.661458 1.36125 0.953125C1.06958 1.24479 0.835208 1.58854 0.658125 1.98438C0.491458 2.36979 0.408125 2.78646 0.408125 3.23438C0.408125 3.68229 0.491458 4.10417 0.658125 4.5C0.835208 4.89583 1.06958 5.23958 1.36125 5.53125C1.65292 5.82292 1.99667 6.05208 2.3925 6.21875C2.78833 6.38542 3.205 6.46875 3.6425 6.46875C4.09042 6.46875 4.51229 6.38542 4.90812 6.21875C5.30396 6.05208 5.64771 5.82292 5.93937 5.53125C6.23104 5.23958 6.46021 4.89583 6.62687 4.5C6.80396 4.10417 6.8925 3.68229 6.8925 3.23438C6.8925 2.78646 6.80396 2.36979 6.62687 1.98438C6.46021 1.58854 6.23104 1.24479 5.93937 0.953125C5.64771 0.661458 5.30396 0.432292 4.90812 0.265625C4.51229 0.0885417 4.09042 0 3.6425 0ZM5.06437 7.15625L10.9237 12.1406L12.3925 10.625L7.40812 4.85938C7.04354 5.54688 6.55917 6.10417 5.955 6.53125C5.36125 6.94792 5.06437 7.15625 5.06437 7.15625ZM13.2831 11.7656L12.705 10.9844L11.3456 12.4062L12.1269 12.9375L13.2831 11.7656ZM13.58 12.2344L12.5175 13.2656L13.0331 13.3594C13.0644 13.5052 13.08 13.7396 13.08 14.0625C13.0904 14.375 13.0071 14.6562 12.83 14.9062C12.705 15.0625 12.5383 15.1823 12.33 15.2656C12.1321 15.349 11.8925 15.3958 11.6112 15.4062C10.4237 15.4375 9.54354 15.3646 8.97062 15.1875C8.40812 15.0208 7.80396 14.5885 7.15812 13.8906C6.77271 13.4844 6.34042 13.1875 5.86125 13C5.38208 12.8125 4.92375 12.6927 4.48625 12.6406C4.05917 12.5781 3.68937 12.5573 3.37687 12.5781C3.07479 12.5885 2.90812 12.599 2.87687 12.6094C2.80396 12.6198 2.74146 12.6562 2.68937 12.7188C2.63729 12.7812 2.61646 12.8542 2.62687 12.9375C2.63729 13.0104 2.67375 13.0729 2.73625 13.125C2.79875 13.1771 2.87167 13.1979 2.955 13.1875C2.96542 13.1875 3.10604 13.1771 3.37687 13.1562C3.64771 13.1354 3.97583 13.151 4.36125 13.2031C4.74667 13.2552 5.15292 13.3594 5.58 13.5156C6.0175 13.6719 6.39771 13.9271 6.72062 14.2812C7.39771 15.0104 8.02792 15.4792 8.61125 15.6875C9.205 15.8958 9.97062 16 10.9081 16C11.0123 16 11.1269 16 11.2519 16C11.3769 16 11.5019 15.9948 11.6269 15.9844C12.0019 15.9844 12.33 15.9219 12.6112 15.7969C12.8925 15.6719 13.1217 15.4896 13.2987 15.25C13.5071 14.9583 13.6217 14.6458 13.6425 14.3125C13.6737 13.9792 13.6737 13.6979 13.6425 13.4688L13.7519 13.4844L13.58 12.2344Z"></path></svg>
-									book session now
+									Send Message
 								</button>
 							</form>
 						</div>
