@@ -21,9 +21,7 @@ const Contact = () => {
 				<img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" className="page-name__bg lazy" data-src="./img/page-name_bg.jpg" alt="bg" />
 			</div>
 		</section>
-    <section className="v-separator pb-xs-50 pb-md-50 pb-lg-120">
-				<div className="map-block" id="contact-map" data-lng='-117.2697074' data-lat='34.0887252' data-zoom='15' data-map-icon="./img/map-marker.png"></div>
-				<div className="contact-bnr lazy" data-src="img/contact-bg.jpg">
+    <section className="pb-xs-50 pb-md-50 pb-lg-120">
 					<div className="container">
 						<h2>Get in Touch with Us</h2>
 						<ul className="contact-list">
@@ -98,8 +96,7 @@ const Contact = () => {
 								</button>
 							</form>
 						</div>
-					</div>
-				</div>
+					
 			</section>
 
         </>
