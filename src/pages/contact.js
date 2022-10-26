@@ -88,8 +88,8 @@ const Contact = () => {
 								</button>
 							</form>
 						</div>
-					</div>
 				</div>
+				</div>	
 			</section>
 
         </>
